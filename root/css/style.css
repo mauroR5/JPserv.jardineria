@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: max-content;
+
+}
+
+
+
+#header{
+    width: 100vw;
+    height: 200px;
+    background-color:#000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-nav{
+    align-self: flex-end;
+    margin: 10px 30px 0px 10px;
+
+}
+
+.contenedordeh1h2{
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}
+
+/*cambio de color letra titulo y subtitulo*/
+
+#header .contenedordeh1h2 .title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #0b4609;
+}
+
+ .pf{
+     color: #979797;
+     font-size: 0.5rem;
+ }
+
+ #header .contenedordeh1h2 .subtitle{
+     font-size: 2rem;
+     font-weight: 700;
+     color: #8d0000;
+     position: relative;
+     left: 100px;
+     top: 10px;
+ }
+
+
+
+
+
+/*el logo del header*/
+
+.logotipo{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+
+#header .logotipo h2{
+    color: #fff;
+    font-size: 6rem;
+}
+
+
+/* dentro del header la parte del menu nav*/
+
+/*alineo los elementos de menu horizontalmente y les doy un margen*/
+
+#header .content-nav .navprincipal .ul-nav {
+    display: flex;
+}
+
+#header .content-nav .navprincipal .ul-nav .li-nav {
+    margin: 5px;
+}
+
+/*estilo letras lista del menu principal dento del header*/
+
+#header .content-nav .navprincipal .ul-nav .li-nav .adeli{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+/*NOS VAMOS AL MAIN*/ 
+
+/*imagen principal de main*/
+
+#main{
+    width: 100vw;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fffffe;
+}
+
+/*sobre la imagen*/ 
+
+#main .contenedor-img-princ .jpimg{
+    width: 40vw;
+    height: 300px;
+}
+
+
+#main .contenedor-img-princ {
+    position: relative;
+    top: 80px;
+    right: 80px;
+}
+
+
+/*los 5 pasos. flex y demas estilos*/
+
+
+#main .lospasos{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 10px 0px 10px 50px;
+    padding: 20px;
+    width: 40vw;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+#main .lospasos .descripcionmain{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    z-index: 1;
+    color: #0b6308;
+    margin: 10px 10px 50px 10px;
+
+}
+
+#main .lospasos .listadepasos .pasos{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 700;
+    margin: 5px;
+    position: relative;
+    left: 50px;
+    z-index: 2;
+
+}
+
+/*el texto whatssap*/
+
+#main .lospasos .listadepasos .pasos .liwhatssap {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+
+/*mira nuestra galeria*/
+
+
+#main .galeria-img-principal {
+    width: 30vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    right: 70px;
+}
+
+
+#main .galeria-img-principal .conteinertitulogaleriamain {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 10px 10px 30px 0px;
+}
+
+#main .galeria-img-principal .primeraseccion {
+    margin: 8px;
+    padding: 7px;
+}
+
+#main .galeria-img-principal .gale{
+    text-decoration: none;
+    color: #8d0000;
+}
+
+/*footer*/
